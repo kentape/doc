@@ -37,3 +37,7 @@ Refs:
    1. $ git remote -v
    1. $ git push origin master
    1. $ git push -u origin dev __eller__ git push --set-upstream origin master (för att ange att man vill tracka den nya remota branchen)
+
+## Terminals
+### Terminator
+* https://terminator-gtk3.readthedocs.io/en/latest/index.html
