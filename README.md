@@ -6,6 +6,11 @@
 - [doc](#doc)
   - [toc](#toc)
   - [Markdown syntax:](#markdown-syntax:)
+  - [GIT](#git)
+    - [Various commands](#various-commands)
+    - [Track remote branches](#track-remote-branches)
+    - [Create repository from existing project](#create-repository-from-existing-project)
+  - [Terminals](#terminals)
 
 ### Markdown syntax:
 * https://guides.github.com/features/mastering-markdown/
@@ -23,7 +28,7 @@
    * you started a new local branch and now want to publish it on the remote for the first time
    * git push -u origin dev __eller__ git push --set-upstream origin dev
 
-### Create repository from existing project.  
+### Create repository from existing project
 Refs:
 * https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
   
