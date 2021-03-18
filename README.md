@@ -1,6 +1,12 @@
 # doc
 #Various documentation
 
+## toc
+
+- [doc](#doc)
+  - [toc](#toc)
+  - [Markdown syntax:](#markdown-syntax:)
+
 ### Markdown syntax:
 * https://guides.github.com/features/mastering-markdown/
   
