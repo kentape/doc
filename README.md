@@ -10,6 +10,7 @@
     - [MUnit](#mUnit)
     - [Regex](#regex)
   - [Postman](#postman)
+  - [Maven](#maven)
   - [GIT](#git)
     - [Various commands](#various-commands)
     - [Track remote branches](#track-remote-branches)
@@ -20,6 +21,12 @@
 * https://guides.github.com/features/mastering-markdown/
 
 ## Mule
+
+- [Java Code Examples for org.mule.api.MuleMessage](https://www.programcreek.com/java-api-examples/?api=org.mule.api.MuleMessage)
+- [Java Code Examples for org.mule.api.MuleEvent](https://www.programcreek.com/java-api-examples/?api=org.mule.api.MuleEvent)
+- [Configuring Properties](https://docs.mulesoft.com/mule-runtime/3.9/configuring-properties)
+- [Loading property file](https://forums.mulesoft.com/questions/95658/loading-property-file.html)
+- [How to read properties into JAVA code from properties file in mule?](https://forums.mulesoft.com/questions/77979/how-to-read-properties-into-java-code-from-propert.html)
 
 ### MUnit
 - [MUnit Maven Plugin](https://docs.mulesoft.com/munit/2.3/munit-maven-plugin)
@@ -108,3 +115,13 @@ Refs:
 ## Terminals
 ### Terminator
 * https://terminator-gtk3.readthedocs.io/en/latest/index.html
+
+## Ubuntu
+
+### Sökningar
+```zgrep 195904272399 audit/*.log.gz```
+```zgrep 4e499d80-9196-11e9-8e00-005056814864 audit/*.log.gz```
+```grep 195904272399 audit/*.log```
+
+```zgrep -R --include=*.gz -H "foretag" .```
+```zcat -r /opt/mulesoft/icc/rt05-pro/mule/logs | grep "Ogiltigt clientID"```
