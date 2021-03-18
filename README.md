@@ -5,15 +5,31 @@
 
 - [doc](#doc)
   - [toc](#toc)
-  - [Markdown syntax:](#markdown-syntax:)
+  - [Markdown syntax](#markdown-syntax)
+  - [Mule](#mule)
+    - [MUnit](#mUnit)
+  - [Postman](#postman)
   - [GIT](#git)
     - [Various commands](#various-commands)
     - [Track remote branches](#track-remote-branches)
     - [Create repository from existing project](#create-repository-from-existing-project)
   - [Terminals](#terminals)
 
-### Markdown syntax:
+### Markdown syntax
 * https://guides.github.com/features/mastering-markdown/
+
+## Mule
+
+### MUnit
+- [MUnit Maven Plugin](https://docs.mulesoft.com/munit/2.3/munit-maven-plugin)
+- [Coverage](https://docs.mulesoft.com/munit/2.3/munit-coverage-report)
+
+## Postman
+Problem med anrop pga 403 Forbidden, "invalid csrf token"
+  - [ref](https://i.stack.imgur.com/ab71y.png)
+  - Leta upp en Cookie som heter XSRF-TOKEN i Responset
+  - Skapa en header med namnet XSRF-TOKEN och sätt den till värdet från cookien ovan
+  - gör ett nytt requeste så bör det funka
   
 ## GIT
 ### Various commands
