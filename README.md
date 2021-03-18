@@ -16,6 +16,8 @@
     - [Track remote branches](#track-remote-branches)
     - [Create repository from existing project](#create-repository-from-existing-project)
   - [Terminals](#terminals)
+  - [Ubuntu](#ubuntu)
+    - [Sökningar](#sökningar)
 
 ### Markdown syntax
 * https://guides.github.com/features/mastering-markdown/
@@ -120,8 +122,11 @@ Refs:
 
 ### Sökningar
 ```zgrep 195904272399 audit/*.log.gz```
+
 ```zgrep 4e499d80-9196-11e9-8e00-005056814864 audit/*.log.gz```
+
 ```grep 195904272399 audit/*.log```
 
 ```zgrep -R --include=*.gz -H "foretag" .```
+
 ```zcat -r /opt/mulesoft/icc/rt05-pro/mule/logs | grep "Ogiltigt clientID"```
